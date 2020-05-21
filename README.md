@@ -2,4 +2,5 @@
 
 # show containers
 $ docker ps
+
 $ docker ps -a # --all
