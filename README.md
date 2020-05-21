@@ -14,7 +14,7 @@ $ docker run -di --name {} image_name # -di = detached & interactif, --name = sp
 
 ## Connect to a container
 
-$ docker exec -ti image_name sh (bash is better) # https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty
+$ docker exec -ti image_name sh (bash is better) # for -ti option https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty
 
 ## Run nginx (example)
 
@@ -36,3 +36,7 @@ $ docker stop conainer_name
 
 $ docker rm -f container # -f forcing even the container is running
 
+## Specify volumes
+
+It serves to keep a folder from the machine synchronized with a folder in the container.\n 
+$ docker run -v local_directory_path:containter_directory_path
