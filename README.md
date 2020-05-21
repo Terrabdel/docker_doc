@@ -2,11 +2,15 @@
 
 # Basics
 
-## Show containers
+## List containers
 
 $ docker ps
 
 $ docker ps -a # --all
+
+## List images
+
+$ docker image ls
 
 ## Run container
 
@@ -36,7 +40,44 @@ $ docker stop conainer_name
 
 $ docker rm -f container # -f forcing even the container is running
 
-## Specify volumes
+# Volumes
 
-It serves to keep a folder from the machine synchronized with a folder in the container.\n 
+## Mount volumes
+
+It serves to keep a folder from the machine synchronized with a folder in the container.
+
 $ docker run -v local_directory_path:containter_directory_path
+
+## Volumes doc
+
+Usage:  docker volume COMMAND
+
+Manage volumes
+
+Commands:
+  create      Create a volume
+  inspect     Display detailed information on one or more volumes
+  ls          List volumes
+  prune       Remove all unused local volumes
+  rm          Remove one or more volumes
+
+  ## Create volume
+
+  $ docker volume create volume_name
+
+  ## Inspect volume
+
+  $ docker volume inspect volume_name
+
+  ## Run Docker with a specified volume
+
+  $ docker run (-tid --name container_name -p xxxx:xxxx) --mount source=volume_name, target=containter_directory_path image_name
+
+  ## Delete a volume
+
+  $ docker volume rm volume_name (must be not used in a container)
+
+
+  # Environment variables
+
+  ## To-Do
