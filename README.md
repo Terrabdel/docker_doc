@@ -55,11 +55,11 @@ Usage:  docker volume COMMAND
 Manage volumes  
   
 Commands:  
-&nbsp;&nbsp;&nbsp; create      Create a volume  
-&nbsp;&nbsp;&nbsp; inspect     Display detailed information on one or more volumes  
-&nbsp;&nbsp;&nbsp; ls          List volumes  
-&nbsp;&nbsp;&nbsp; prune       Remove all unused local volumes  
-&nbsp;&nbsp;&nbsp; rm          Remove one or more volumes  
+&nbsp;&nbsp;&nbsp; create &nbsp;&nbsp;  Create a volume  
+&nbsp;&nbsp;&nbsp; inspect &nbsp;&nbsp; Display detailed information on one or more volumes  
+&nbsp;&nbsp;&nbsp; ls &nbsp;&nbsp;  List volumes  
+&nbsp;&nbsp;&nbsp; prune &nbsp;&nbsp;  Remove all unused local volumes  
+&nbsp;&nbsp;&nbsp; rm &nbsp;&nbsp; Remove one or more volumes  
   
   ## Create volume
 
