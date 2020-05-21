@@ -49,18 +49,18 @@ It serves to keep a folder from the machine synchronized with a folder in the co
 $ docker run -v local_directory_path:containter_directory_path
 
 ## Volumes doc
-
-Usage:  docker volume COMMAND
-
-Manage volumes
-
-Commands:
-  create      Create a volume
-  inspect     Display detailed information on one or more volumes
-  ls          List volumes
-  prune       Remove all unused local volumes
-  rm          Remove one or more volumes
-
+  
+Usage:  docker volume COMMAND  
+  
+Manage volumes  
+  
+Commands:  
+  create      Create a volume  
+  inspect     Display detailed information on one or more volumes  
+  ls          List volumes  
+  prune       Remove all unused local volumes  
+  rm          Remove one or more volumes  
+  
   ## Create volume
 
   $ docker volume create volume_name
