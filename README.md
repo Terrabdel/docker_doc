@@ -18,7 +18,7 @@ $ docker run -di --name {} image_name # -di = detached & interactif, --name = sp
 
 ## Connect to a container
 
-$ docker exec -ti image_name sh (bash is better) # for -ti option https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty
+$ docker exec -ti container_name sh (bash is better) # for -ti option https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty
 
 ## Run nginx (example)
 
